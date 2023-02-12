@@ -1,0 +1,140 @@
+/*---General---*/
+header{
+    background-color: #fff0ed;
+    margin-bottom: 0;
+    height: 100px;
+}
+
+body{
+    margin-top: 0;
+}
+
+h1, h2{
+    font-size: 3.75rem;
+    font-weight: 300;
+    
+}
+h3, nav{
+    font-size: 2.063rem;
+    font-weight: 300;
+}
+h3{
+    display: block;
+    margin-bottom: 15px;
+}
+.p-italic{
+    font-style: italic;
+    font-size: 1.125rem;
+    font-weight: 400;
+    width: 30rem;
+    text-align: center;
+    display:inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.p-regular{
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #5BACC3;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+/*---Header---*/
+.h2-header{
+    display: inline;
+}
+.nav-link{
+    font-size: 1.313rem;
+    font-weight: 400;
+    list-style-type: none;
+    display: inline-block;
+    padding-bottom: 20px;
+    
+}
+.nav-bar_nav-header, .nav-bar_nav-header--blue{
+    padding: 0 20px;
+    text-decoration: none;
+    color: #393939;
+}
+.nav-bar_nav-header--blue{
+    color: #5bacc3;
+}
+.img-icon{
+    width: 3.125rem;
+}
+
+.menu-header{
+    background-image: url(../assets/coffee-circle.jpg) ;
+    width: 100%;
+    height: 43.75rem;
+    background-position: center;
+    background-size: cover;
+    margin-top: 1px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row;
+    
+}
+.menu-header--border{
+    width: 18.0rem;
+    height: 11.80rem;
+    border: #5BACC3 solid;
+    border-width: 5px;
+    align-items: center;
+    position: relative;
+    right:165px;
+    bottom: 30px;
+}
+/*---Main---*/
+.h1-menu{
+    background-color: #393939;
+    width: 18.75rem;
+    height: 12.50rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left:150px;
+    top: -15px;
+    
+    
+  
+    
+}
+.menu-list{
+    background-color: #393939;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 15px;
+    height: 80px;
+    width: 100%;
+    font-size: 1.5rem;
+   }
+.span-menu{
+    font-size: 2.0rem;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #5bacc3;
+}
+.menu-details--pink{
+    background-color: #FFF0ED;
+    text-align: center;
+   
+}
+.menu-details--gray{
+    background-color: #F7F7F7;
+    text-align: center;
+}
+#hot_drinks, #cold_drinks, #pastries {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
