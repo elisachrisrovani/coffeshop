@@ -243,8 +243,9 @@ button{
 
  }
  .can-cold-brew{
-    display: flex;
-    margin-left: 150px;
+    /*display: flex;
+    margin-left: 150px;*/
+    float: right;
    
  }
  .learn-more-border{
@@ -253,8 +254,9 @@ button{
     border: #5BACC3 solid;
     border-width: 5px;
     position: relative;
-    right: 635px;
+    left: 435px;
     top: 65px;
+    float: left;
 
  }
  .img-background-can{
@@ -269,7 +271,7 @@ button{
     height: 300px;
     position: relative;
     left: -290px;
-    top: 140px;
+    bottom: 50px;
  }
 
 /*---Discount---*/
@@ -319,7 +321,17 @@ button{
 .footer{
     background-color: #FFF0ED;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly
+}
+.footer-img-left{
+    width: 100px;
+    float: left;
+    opacity: 0.3;
+}
+.footer-img-right{
+    width: 100px;
+    float: right;
+    opacity: 0.3;
 }
 .address, .hours, .social{
     margin-right: 100px;
